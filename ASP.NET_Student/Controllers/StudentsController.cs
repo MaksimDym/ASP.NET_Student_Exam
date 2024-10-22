@@ -20,13 +20,13 @@ namespace ASP.NET_Student.Controllers
             _context = context;
         }
 
-        // GET: Students
+        
         public async Task<IActionResult> Index()
         {
             return View(await _context.Students.ToListAsync());
         }
 
-        // GET: Students/Details/5
+       
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -44,7 +44,7 @@ namespace ASP.NET_Student.Controllers
             return View(student);
         }
 
-        // GET: Students/Create
+       
         public IActionResult Create()
         {
             return View();
@@ -64,7 +64,7 @@ namespace ASP.NET_Student.Controllers
             return View(student);
         }
 
-        // GET: Students/Edit/5
+       
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
