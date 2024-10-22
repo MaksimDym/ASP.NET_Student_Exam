@@ -1,0 +1,6 @@
+Max, 5
+Tom, 4
+Alex, 3
+Alex, 4
+John, 4
+Polly, 4
